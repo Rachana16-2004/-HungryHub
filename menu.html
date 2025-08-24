@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HungryHub | Menu</title>
+  <style>
+    /* Reset & Global */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #fffaf5;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2, h3, h4 {
+      font-weight: bold;
+      color: #b22222;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 8%;
+      background: #333;
+    }
+    .logo {
+      color: #fff;
+      font-size: 24px;
+    }
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .navbar a {
+      color: #fff;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .navbar a.active,
+    .navbar a:hover {
+      color: #ffcc00;
+    }
+
+    /* Menu Section */
+    .menu {
+      padding: 50px 8%;
+      text-align: center;
+    }
+    .menu h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .menu h3 {
+      margin-top: 40px;
+      margin-bottom: 15px;
+      font-size: 24px;
+      color: #222;
+    }
+
+    /* Menu Grid */
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .menu-item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .menu-item:hover {
+      transform: translateY(-5px);
+    }
+  .menu-item img {
+  width: 50%;
+  aspect-ratio: 1/1;   /* forces square shape */
+  object-fit: cover;   /* keeps image inside square */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+    .menu-item h4 {
+      margin-bottom: 5px;
+      color: #b22222;
+    }
+    .menu-item p {
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">HungryHub</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="menu">
+    <h2>Our Menu</h2>
+
+    <!-- Starters -->
+    <h3>Starters</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="images/garlic-bread.jpg" alt="Garlic Bread">
+        <h4>Garlic Bread</h4>
+        <p>$5</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/caesar-salad.jpg" alt="Caesar Salad">
+        <h4>Caesar Salad</h4>
+        <p>$8</p>
+      </div>
+    </div>
+
+    <!-- Main Course -->
+    <h3>Main Course</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="images/grilled-chicken.jpg" alt="Grilled Chicken">
+        <h4>Grilled Chicken</h4>
+        <p>$15</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/veggie-pizza.jpg" alt="Veggie Pizza">
+        <h4>Veggie Pizza</h4>
+        <p>$12</p>
+      </div>
+    </div>
+
+    <!-- Desserts -->
+    <h3>Desserts</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="images/chocolate-cake.jpg" alt="Chocolate Cake">
+        <h4>Chocolate Cake</h4>
+        <p>$6</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/fruit-salad.jpg" alt="Fruit Salad">
+        <h4>Fruit Salad</h4>
+        <p>$5</p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2025 HungryHub. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
