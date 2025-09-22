@@ -6,7 +6,7 @@ It showcases a restaurant’s homepage with navigation, food menu, about section
 
 The project is styled with CSS for an attractive, modern, and user-friendly design.
 
----
+--- 
 
 ## 🛠️ Tools & Technologies
 - HTML5  
