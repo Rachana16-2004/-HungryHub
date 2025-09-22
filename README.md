@@ -1,6 +1,6 @@
  # 🍽️ HungryHub
 
-## 📌 Project Overview
+## 📌 Project Overview 
 HungryHub is a simple and responsive food website built using **HTML** and **CSS**.  
 It showcases a restaurant’s homepage with navigation, food menu, about section, gallery, and contact form.  
 
