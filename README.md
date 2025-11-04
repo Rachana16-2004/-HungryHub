@@ -11,7 +11,7 @@ The project is styled with CSS for an attractive, modern, and user-friendly desi
 ## 🛠️ Tools & Technologies
 - HTML5  
 - CSS3   
----
+--- 
 
 ## 📂 Project Structure
 HungryHub/
