@@ -5,7 +5,7 @@ HungryHub is a simple and responsive food website built using **HTML** and **CSS
 It showcases a restaurant’s homepage with navigation, food menu, about section, gallery, and contact form.   
 
 The project is styled with CSS for an attractive, modern, and user-friendly design.
- 
+   
 ---    
 
 ## 🛠️ Tools & Technologies
