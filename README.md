@@ -23,3 +23,7 @@ HungryHub/
 │── style.css # Stylesheet
 │── images/ # Website images
 │── README.md # Project documentation 
+
+---
+Screenshot
+[]()
