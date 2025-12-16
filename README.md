@@ -27,3 +27,4 @@ HungryHub/
 ---
 Screenshot
 ![](https://github.com/Rachana16-2004/-HungryHub/blob/main/Screenshot%202025-12-16%20190621.png?raw=true)
+![](https://github.com/Rachana16-2004/-HungryHub/blob/main/Screenshot%202025-12-16%20190653.png?raw=true)
