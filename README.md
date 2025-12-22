@@ -13,7 +13,7 @@ The project is styled with CSS for an attractive, modern, and user-friendly desi
 - CSS3   
 --- 
 
-## 📂 Project Structure
+## 📂 Project Structure 
 HungryHub/
 │── index.html # Homepage
 │── about.html # About page
